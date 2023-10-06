@@ -1,7 +1,7 @@
-import User from "../models/userModel.js";
+import User from "../Controllers/userController";
 
 import bcrypt from "bcryptjs";
-import generateTokenAndSetCookie from "../utils/helpers/generateTokenAndSetCookie.js";
+import generateTokenAndSetCookie from "../utils/helpers/generateTokenAndSetCookie";
 import { v2 as cloudinary } from "cloudinary";
 import mongoose from "mongoose";
 

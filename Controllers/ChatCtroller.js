@@ -1,4 +1,4 @@
-const Chat = require("./chatModel"); // Assuming chatModel.js is in the same directory
+const Chat = require("../Models/ChatModal"); // Assuming chatModel.js is in the same directory
 
 const chatController = {};
 
