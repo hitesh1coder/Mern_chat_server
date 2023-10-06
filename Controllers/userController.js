@@ -1,4 +1,4 @@
-import User from "../Controllers/userController.js";
+import User from "../Models/UserModel.js";
 
 import bcrypt from "bcryptjs";
 import generateTokenAndSetCookie from "../utils/helpers/generateTokenAndSetCookie.js";
