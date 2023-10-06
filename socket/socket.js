@@ -1,11 +1,11 @@
 import { Server } from "socket.io";
 import http from "http";
 import express from "express";
-import Message from "../models/messageModel.js";
+import Message from "../Models/messageModel.js";
 import dotenv from "dotenv";
 dotenv.config();
 
-import Conversation from "../models/conversationModel.js";
+import Conversation from "../Models/conversationModel.js";
 
 const app = express();
 const server = http.createServer(app);
